@@ -1,0 +1,11 @@
+#zoid-paypal-buttons-uid_c39cc99a41_mtq6nty6mzc{
+    display: none !important;
+}
+
+.inputRightShadow:focus{
+    box-shadow: none;
+}
+
+.inputRightShadow{
+    border: 1px solid rgba(13,110,253,.5)
+}

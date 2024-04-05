@@ -1,0 +1,61 @@
+.houseCard:hover{
+    box-shadow: rgba(14, 30, 37, 0.22) 0px 2px 4px 0px, rgba(14, 30, 37, 0.42) 0px 2px 16px 0px;
+    transform: translateY(-2px);
+    transition: transform 0.2s ease-in-out;
+}
+.hdBackground{
+    background-color: #f8f8f6;
+}
+.hdSticky{
+    position: sticky;
+    top: 4rem;
+    height: 88vh;
+    background-color: white;
+    width: 26vw;
+    overflow-y: scroll;
+}
+.houseCard{
+    width: 60vw;
+    background-color: white;
+    height: 13.46rem;
+    overflow: hidden;
+}
+.cardImage{
+    width: 300px;
+    height: 200px;
+    margin-left: 4px;
+}
+.hdLocation{
+    font-size: 1.5rem;
+}
+.hdPrice{
+    color: rgb(255, 89, 0);
+    font-size: 1.3rem;
+}
+.hdpFrom{
+    font-size: 12px;
+    color: rgb(94, 94, 94);
+}
+.hdBhk, .hdCategory, .hdIn, .hdLocationSpan, .hdAmenity, .hdArea, .hdAvailable, .hdReviews{
+    font-size: 13.4px;
+    color: rgb(158, 141, 141);
+    font-weight:300;
+    margin: 1px 0;
+}
+.hdCategory, .hdFw300{
+    font-weight: 500;
+    color: #000000;
+}
+
+@media only screen and (max-width: 1200px) {
+    .houseCard {
+        width: 300px;
+        margin: 10px auto;
+        height: auto;
+        flex-direction: column;
+    }
+    .cardImage{
+        width: 285px;
+        height: 200px;
+    }
+}

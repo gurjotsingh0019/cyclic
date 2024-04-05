@@ -1,0 +1,23 @@
+.cartHeading{
+    font-weight: 500 !important;
+    vertical-align: middle;
+}
+.cartText{
+    font-size: 15px !important;
+    color: rgba(35, 35, 35, 0.8) !important;
+    vertical-align: middle;
+    cursor:pointer;
+}
+.cartBox{
+    position: sticky;
+    top: 4rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.cartH1{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 1.5rem 0;
+    background: -webkit-linear-gradient(#6aeeff, #007bff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text
+}

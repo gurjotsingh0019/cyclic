@@ -1,0 +1,22 @@
+.amenityButton{
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.btnsecondary{
+background-image: linear-gradient(144deg, #3da8ff 60%,#00DDEB);
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  border: none;
+}
+.amenity-input{
+  width: 80%;
+  border-radius: 6px 0 0 6px
+}
+
+.amenity-input-button{
+  width: 20%;
+  border-radius: 0 6px 6px 0;
+  height: 58px;
+}

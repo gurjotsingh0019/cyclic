@@ -1,0 +1,17 @@
+.profileH1 {
+  display: flex;
+  background: -webkit-linear-gradient(#6aeeff, #007bff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.spanButton {
+  font-weight: 400;
+}
+.badge-danger {
+  background: linear-gradient(45deg, #ff0000 10%, rgb(255, 204, 204) 90%);
+  transition: background-position 0.5s ease-in-out;
+}
+.badge-success {
+  background: linear-gradient(45deg, #22ac00 10%, rgb(191, 255, 195) 90%);
+  transition: background-position 0.5s ease-in-out;
+}

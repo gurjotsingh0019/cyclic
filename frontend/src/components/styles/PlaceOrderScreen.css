@@ -1,0 +1,44 @@
+.posh1{
+    display: flex;
+    background: -webkit-linear-gradient(#6aeeff, #007bff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 32px;
+    margin-bottom: 3vh;
+}
+.posSpan1{
+    font-weight: 500;
+    font-size: 15px;
+}
+.posSpan2{
+    font-weight: 300;
+    font-size: 14px;
+    vertical-align: middle;
+}
+.posCard{
+    border: none;
+    border-radius: 0;
+}
+.posCard2{
+    border-radius: 0;
+    border: none;
+    position: sticky;
+    top: 4rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 99%;
+}
+.posButton{
+    font-weight:300;
+    font-size:17px;
+    height: 2.9rem;
+    transition: font-size 0.3s ease-in-out;
+}
+.posButton:hover{
+    font-size:19px;
+}
+.ssh1{
+    background: -webkit-linear-gradient(#6aeeff, #007bff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin-top: 3vh;
+}

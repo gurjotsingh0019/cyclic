@@ -1,0 +1,19 @@
+.dash-image{
+    width: 1.5rem;
+}
+.admin-image{
+    width: 1.9rem;
+}
+.user-image{
+    width: 1.4rem;
+}
+hr{
+    color: white;
+}
+.dropdown-item{
+    color: #003870 !important;
+}
+.hovering:hover{
+    transform: scale(1.16);
+    transition: transform 0.2s ease-in-out;
+}

@@ -1,0 +1,69 @@
+.blueUnderline {
+    position: relative;
+    text-decoration: none;
+  }
+  
+  .blueUnderline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* Adjust this value to control the distance of the line from text */
+    width: 100%;
+    height: 2px; /* Adjust this value to control the thickness of the line */
+    background-color: blue;
+  }
+  .UAlist{
+    margin-right: 1.5rem;
+    font-size: 14px;
+    cursor: pointer;
+  }  
+  .UAcard{
+    width: 60vw;
+    cursor: pointer;
+  }
+  .UAcard:hover{
+    transform: translateY(-4px);
+    transition: transform 0.1s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+  }
+  .UAview{
+    width: 18rem;
+    margin: 1rem;
+  }
+  .UAviewText{
+    margin: 2px 0;
+  }
+  .popover-container {
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    margin: 4px;
+  }
+
+  .popover-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+
+  .popover-container:hover .popover-content {
+    display: block;
+  }
+
+  .popover-button {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+  }
+  .popover-button:hover{
+    color: rgb(131, 131, 131);
+  }
+
+  .UAviewImg{
+    height: 200px;
+    cursor: pointer;
+  }

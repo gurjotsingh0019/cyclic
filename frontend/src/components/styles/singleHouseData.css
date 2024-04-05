@@ -1,0 +1,156 @@
+.shdCarousel{
+    aspect-ratio: 1.79;
+    background-color: rgb(197, 197, 197);
+    
+}
+.shdImages{
+    background-color: rgb(226, 226, 226);
+    aspect-ratio: 1.5;
+}
+.shda{
+    height: 100vh;
+    background-color:#000000bd;
+    animation: carouselComing 0.1s ease-in-out;
+}
+.shdb{
+    width: 50rem;
+    height: 33.4rem;
+    overflow: hidden;
+    background-color: rgba(190, 190, 190, 0.899);
+    margin-top: 6rem;
+}
+.shde{
+    width: 50rem;
+    height: 33.4rem;
+    object-fit: contain;
+}
+.shcross{
+    cursor: pointer;
+    position: fixed;
+    color: rgb(210, 210, 210);
+    right:0;
+    margin: 1rem;
+    background-color: #c1c1c132 !important;
+    border-radius: 50%;
+    padding: 8px;
+}
+.carousel-control-next{
+    height: 3rem !important;
+    background-color: rgba(74, 74, 74, 0.464) !important;
+    border-radius: 50% !important;
+    margin: auto 5px !important;
+    font-weight: 500;
+}
+.carousel-control-next:hover{
+    background-color: rgba(74, 74, 74, 0.464) !important;
+    transform: scale(1.2) !important;
+    transition: transform 0.3s ease-in-out;
+}
+.carousel-control-prev{
+    height: 3rem !important;
+    background-color: black !important;
+    border-radius: 50% !important;
+    margin: auto 5px !important;
+}
+.carousel-control-prev:hover{
+    background-color: rgba(65, 65, 65, 0.514) !important;
+    transform: scale(1.2) !important;
+    transition: transform 0.3s ease-in-out;
+}
+.shdimages{
+    background-color: rgb(226, 226, 226);
+    width: auto !important;
+    height: 4rem;
+    object-fit: contain;
+}
+.shdCard{
+    position: sticky;
+    top: 4rem;
+
+}
+.shdCardTitle{
+    font-size: 1.3rem;
+    color: #000000;
+    font-weight: 400;
+}
+.shdCardTitlePrice{
+    font-size: 1.3rem;
+    color: #ff5900;
+}
+.shdCardSpan{
+    font-weight: 400;
+    color: #4c4c4c;
+    font-size: .875rem;
+    line-height: 1.5rem;
+}
+.shdCardText{
+    color: #000000;
+    font-weight: 300;
+}
+.shdCards{
+    cursor: pointer;
+}
+.shdCards1{
+    cursor: pointer;
+    position: absolute;
+    overflow-y: scroll;
+    width: 50rem;
+}
+.shHeading{
+    color: white;
+    position: absolute;
+    margin-top: 4rem;
+}
+.shdBcard{
+    color: #4c4c4c;
+    font-size: .875rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+.shdBcardItems{
+    font-weight: 400;
+    color: #4c4c4c;
+    font-size: .875rem;
+    line-height: 1.5rem;
+}
+.heart{
+    cursor: pointer;
+}
+@keyframes carouselComing {
+    0%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.submitReviewButton{
+    font-size: 13px;
+    margin: 0 5px;
+    border-radius: 20px;
+    width: 6rem;
+}
+
+.removeOutline{
+    border: 0 !important;
+    border-bottom: 1px solid !important;
+    border-radius:  0  !important;
+}
+.removeOutline:focus{
+    box-shadow: none !important;
+}
+.commentName{
+    color: black;
+    font-size: 14px;
+}
+.commentDate{
+    color: rgb(131, 131, 131);
+    font-size: 11px;
+}
+.commentComment{
+    font-size: 14px;
+}

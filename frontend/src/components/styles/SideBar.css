@@ -1,0 +1,48 @@
+.sidelinkContainer{
+    font-size:12px !important;
+    padding: 2px 0 4px 3.7rem !important;
+}
+.user-imagi {
+    width: 35px !important;
+    height: 35px !important;
+    object-fit: contain;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.canvas-header{
+    padding: 1rem !important;
+    background-color: whitesmoke;
+}
+.sidelinkContainerHeads{
+    background-color: whitesmoke;
+    margin: -1rem;
+}
+.canvasBody{
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    transition: font-weight 0.1s ease-in-out;
+}
+.ppb{
+    padding: 1px 6px!important;
+    margin-left: 5px;
+    font-size: 12px !important;
+}
+.cp{
+    cursor: pointer;
+}
+.canvasBody:hover{
+    background-color: whitesmoke;
+    font-weight: 500;
+}
+.cbNavLink{
+    
+}
+.sidelinkSpan{
+    margin-left: 3.7rem;
+    font-size: 12.8px;
+    margin-top: 1rem;
+}
+.cursor{
+    cursor: pointer;
+}

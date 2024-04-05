@@ -1,0 +1,359 @@
+.homescreenimage {
+  background-image: url('../../images/backgroundHome.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.animationDownToUp {
+  animation: downToUp 0.5s ease-in;
+}
+@keyframes downToUp {
+  0% {
+    transform: translateY(1.2rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.animationLeftToRight {
+  animation: leftToRight 0.5s ease-in;
+}
+@keyframes leftToRight {
+  0% {
+    transform: translateX(-2rem);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.homescreenimage:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6rem;
+  overflow: visible;
+  width: 50%;
+  height: 100px;
+  z-index: 1;
+  -webkit-transform: skewY(4deg);
+  -moz-transform: skewY(4deg);
+  -ms-transform: skewY(4deg);
+  -o-transform: skewY(4deg);
+  transform: skewY(4deg);
+  background-color: #fff;
+}
+.homescreenimage:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -6rem;
+  overflow: visible;
+  width: 50%;
+  height: 100px;
+  z-index: 1;
+  -webkit-transform: skewY(-4deg);
+  -moz-transform: skewY(-4deg);
+  -ms-transform: skewY(-4deg);
+  -o-transform: skewY(-4deg);
+  transform: skewY(-4deg);
+  background-color: #fff;
+}
+.mouse {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4rem;
+  z-index: 2;
+}
+.mouse-icon {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #004f90;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  background: #004f90;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+.mouseUpDown {
+  animation: moving 1.5s infinite;
+}
+@keyframes moving {
+  0% {
+    transform: translateY(0.5rem);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(3rem);
+    opacity: 1;
+  }
+}
+
+.borderHeading {
+  /* backdrop-filter: blur(4px); */
+  margin-bottom: 12rem;
+}
+
+.hsHeading {
+  margin: auto;
+  font-size: 5rem;
+  font-weight: 500;
+  /* background: -webkit-linear-gradient(#3f6089, #110d0d); */
+  /* -webkit-text-fill-color: transparent; */
+  /* -webkit-background-clip: text; */
+  color: #000000;
+  /* backdrop-filter: blur(20px); */
+  /* background-color: rgba(189, 206, 255, 0.122); */
+}
+
+.hsPara {
+  color: #000000;
+  font-size: 17px;
+  margin: 1rem auto auto auto;
+  font-weight: 300;
+  text-shadow: 1px 1px #ffffff;
+}
+
+.hsheading4 {
+  font-size: 18px;
+  display: inline-block;
+  color: #007bff;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: relative;
+  margin-top: 10px;
+}
+
+.hsheading4:before {
+  position: absolute;
+  top: 50%;
+  right: -60px;
+  content: "";
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 50px;
+  height: 1px;
+  margin-top: -1px;
+  background: #007bff;
+}
+.hsheading4:after {
+  position: absolute;
+  top: 50%;
+  left: -60px;
+  content: "";
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 50px;
+  height: 1px;
+  margin-top: -1px;
+  background: #007bff;
+}
+
+.hsHeading2 {
+  background: -webkit-linear-gradient(#6aeeff, #007bff);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 40px;
+  margin: 1rem 0 4rem 0;
+}
+
+.hscard {
+  height: 28rem;
+  border: none;
+}
+
+.hsCardBody {
+  width: 80%;
+  position: absolute;
+  margin: 10rem 0 0 1.5rem;
+  color: black;
+  background-color: white;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+  border-radius: 0 0 5px 5px;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hs6button {
+  align-self: first baseline;
+  color: #999999;
+}
+
+.shdCardTextSize {
+  font-size: 20px;
+  color: #000000 !important;
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
+}
+
+.hsButton {
+  font-size: 16px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 3rem !important;
+}
+
+.sell-property-card {
+  width: 100%;
+  padding: 40px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  background-color: #00ff5517;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.subdued-caption {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #8993a4;
+}
+
+.large-title {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: 500;
+  color: #091e42;
+}
+
+.semi-bold-label {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  color: #091e42;
+}
+
+.large-display {
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.free-nudge {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.free-label {
+  font-weight: 700;
+}
+
+.large-button {
+  font-size: 17px;
+  font-weight: 500;
+  width: 20rem;
+}
+
+.shinyButton {
+  position: relative;
+  overflow: hidden;
+}
+
+.shinyButton:before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-image: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0) 70%
+  );
+  top: 0;
+  left: -100px;
+  animation: shine 3s infinite linear;
+}
+
+@keyframes shine {
+  0% {
+    left: -100px;
+  }
+  20% {
+    left: 100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.hsLastImage {
+  width: 44vw;
+  object-fit: contain;
+  margin-left: 1rem;
+}
+
+.hsParaButton {
+  font-weight: 500;
+  font-size: 2.2rem;
+  /* text-shadow: 2px 1px #ffffff; */
+  color: black;
+}
+.hsParaButtonDiv{
+  /* backdrop-filter: blur(20px); */
+}
+.hsParaButtonDiv:hover {
+  transform: scale(1.1);
+  transition: transform 0.5s ease-in-out;
+  cursor: pointer;
+}
+@media screen and (max-width: 900px) {
+.homescreenimage {
+  background-size: contain;
+  height: 60vh;
+}
+.homescreenimage:before {
+  display: none;
+}
+.homescreenimage:after {
+  display: none;
+}
+.mouse {
+  display: none;
+}
+}
+@media screen and (max-width: 780px) {
+  .picture{
+    flex-direction: column-reverse;
+    overflow: hidden;
+  } 
+  .homescreenimage {
+    background-size: contain;
+    height: auto;
+  }
+    .hsLastImage {
+      width: 80vw;
+      object-fit: contain;
+      margin-left: 0;
+      margin-bottom: 2rem;
+    }
+  
+  picture{
+    margin: 0 auto 1rem auto;
+  }
+}

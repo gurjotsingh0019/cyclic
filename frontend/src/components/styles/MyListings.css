@@ -1,0 +1,27 @@
+.listingH1 {
+    background: -webkit-linear-gradient(#6aeeff, #007bff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.listHeading{
+    font-weight: 500 !important;
+    vertical-align: middle;
+}
+.listText{
+    font-size: 15px !important;
+    color: rgba(35, 35, 35, 0.88) !important;
+    vertical-align: middle;
+    cursor:pointer;
+}
+.listBox{
+    position: sticky;
+    top: 4rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.shimmerplace{
+    min-height: 2.68rem;
+    margin: 2.68px 0;
+}
