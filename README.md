@@ -1,9 +1,1 @@
 # u1-project
-# u2-Project
-# gabRentup
-# gabRent
-# gabRentup
-# gabRentup
-# rentUp
-# rentUp
-# cyclic
